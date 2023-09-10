@@ -1,6 +1,6 @@
 rfx9600:
   name: RFX9600 Service
-  description: Control and query relays on Philips RFX9600
+  description: Control relays on Philips RFX9600
   fields:
     rfx9600Ip:
       name: RFX9600 IP Address
@@ -21,8 +21,6 @@ rfx9600:
               value: "off"
             - label: Toggle Relay
               value: "toggle"
-            - label: Return State of Relay
-              value: "State"
     rfx9600Relay:
       name: RFX9600 Relay
       Description: The number of the relay
