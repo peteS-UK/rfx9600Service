@@ -17,13 +17,10 @@ rfx9600:
           options:
             - label: Turn Relay On
               value: "on"
-          options:
             - label: Turn Relay Off
               value: "off"
-          options:
             - label: Toggle Relay
               value: "toggle"
-          options:
             - label: Return State of Relay
               value: "State"
     rfx9600Relay:
