@@ -1,6 +1,6 @@
 rfx9600:
   name: RFX9600 Service
-  description: Send UDP Messages to Philips RFX9600 to control and query relays
+  description: Control and query relays on Philips RFX9600
   fields:
     rfx9600Ip:
       name: RFX9600 IP Address
@@ -31,4 +31,5 @@ rfx9600:
         number:
           min: 1
           max: 4
+          mode: box
 
