@@ -1,0 +1,37 @@
+rfx9600:
+  name: RFX9600 Service
+  description: Send UDP Messages to Philips RFX9600 to control and query relays
+  fields:
+    rfx9600Ip:
+      name: RFX9600 IP Address
+      Description: IP Address of RFX9600
+      required: true
+      selector: 
+        text:
+    rfx9600Action:
+      name: RFX9600 Action
+      Description: Select the action to perform
+      required: true
+      selector: 
+        select:
+          options:
+            - label: Turn Relay On
+              value: "on"
+          options:
+            - label: Turn Relay Off
+              value: "off"
+          options:
+            - label: Toggle Relay
+              value: "toggle"
+          options:
+            - label: Return State of Relay
+              value: "State"
+    rfx9600Relay:
+      name: RFX9600 Relay
+      Description: The number of the relay
+      required: true
+      selector: 
+        number:
+          min: 1
+          max: 4
+
