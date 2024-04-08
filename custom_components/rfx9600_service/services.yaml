@@ -1,5 +1,5 @@
 rfx9600:
-  name: RFX9600 Service
+  name: RFX9600 Relay Service
   description: Control relays on Philips RFX9600
   fields:
     rfx9600Ip:
