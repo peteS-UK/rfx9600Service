@@ -1,5 +1,9 @@
 # Philips rfx9600 Service for Home Assistant
 
+## Archive
+
+This repo is archived and replaced by a switch component at [RFX9600](https://github.com/peteS-UK/rfx9600)
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 
 This repo contains a Home Assistant integration for Philips RFX9600.  The integration currently allows you to control relays.
